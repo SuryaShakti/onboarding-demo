@@ -1,8 +1,6 @@
 import Steps from "./components/Steps";
 import logo from "./assets/images/Screenshot 2022-08-08 205201.png";
 import { useState } from "react";
-import user from "./assets/images/user.png";
-import check from "./assets/images/circle check.png";
 import Step1 from "./components/Step1";
 import Step2 from "./components/Step2";
 import Step3 from "./components/Step3";
