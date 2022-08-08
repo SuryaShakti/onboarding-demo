@@ -1,17 +1,16 @@
 import React from 'react'
 import user from "../../assets/images/user.png";
 import team from "../../assets/images/team.png";
+import Header from '../Header';
 
 
 const Step3 = ({setCurrentStep}) => {
   return (
     <div>
-      <div className="text-2xl md:text-3xl text-center font-semibold mt-20">
-        How are you planning to use Eden?
-      </div>
-      <div className="text-gray-400 mt-2 text-center">
-        We'll streamline your setup experience accordingly.
-      </div>
+      <Header
+        title="How are you planning to use Eden?"
+        subtitle="We'll streamline your setup experience accordingly."
+      />
 
       <div className="mt-10 w-full max-w-md mx-auto">
         <div className="">

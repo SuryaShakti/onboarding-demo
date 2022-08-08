@@ -1,14 +1,13 @@
-import React from 'react'
+import React from "react";
+import Header from "../Header";
 
-const Step2 = ({setCurrentStep}) => {
+const Step2 = ({ setCurrentStep }) => {
   return (
     <div>
-      <div className="text-2xl md:text-3xl text-center font-semibold mt-20">
-        Let's set up a home for all your work
-      </div>
-      <div className="text-gray-500 mt-2 text-center">
-        You can always create a another workspace later.
-      </div>
+      <Header
+        title="Let's set up a home for all your work."
+        subtitle="You can always create a another workspace later."
+      />
 
       <div className="mt-10 w-full max-w-md mx-auto">
         <div>
@@ -58,6 +57,6 @@ const Step2 = ({setCurrentStep}) => {
       </button>
     </div>
   );
-}
+};
 
-export default Step2
+export default Step2;

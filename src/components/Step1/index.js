@@ -1,14 +1,13 @@
-import React from 'react'
+import React from "react";
+import Header from "../Header";
 
-const Step1 = ({setCurrentStep}) => {
+const Step1 = ({ setCurrentStep }) => {
   return (
     <div>
-      <div className="text-2xl md:text-3xl text-center font-semibold mt-20">
-        Welcome! First things first...
-      </div>
-      <div className="text-gray-500 mt-2 text-center">
-        You can always change them later.
-      </div>
+      <Header
+        title="Welcome! First things first..."
+        subtitle="You can always change them later."
+      />
 
       <div className="mt-10 w-full">
         <div>
@@ -54,6 +53,6 @@ const Step1 = ({setCurrentStep}) => {
       </div>
     </div>
   );
-}
+};
 
-export default Step1
+export default Step1;
